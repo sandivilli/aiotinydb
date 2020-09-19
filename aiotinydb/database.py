@@ -107,6 +107,4 @@ class AIOTinyDB(TinyDB):
 
 # Set the default table class
 AIOTinyDB.table_class = Table
-
-# Set the default storage proxy class
-AIOTinyDB.storage_proxy_class = StorageProxy
+ 
