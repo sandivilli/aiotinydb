@@ -19,7 +19,7 @@
 # pylint: disable=super-init-not-called,arguments-differ
 # pylint: disable=too-many-instance-attributes
 from tinydb import TinyDB
-from tinydb.database import Table, StorageProxy
+from tinydb.database import Table
 from .exceptions import NotOverridableError, DatabaseNotReady
 from .storage import AIOJSONStorage
 
